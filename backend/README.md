@@ -21,8 +21,8 @@ This Spring Boot backend provides REST APIs for storing conversations and messag
    ```bash
    mvn spring-boot:run
    ```
-3. Open the backend on `http://localhost:8081`.
-4. If you want to inspect the H2 database, open `http://localhost:8081/h2-console`.
+3. Open the backend on `https://veltroz-production.up.railway.app/`.
+4. If you want to inspect the H2 database, open `https://veltroz-production.up.railway.app//h2-console`.
 
 ## Notes
 

@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8081/api';
+const API_BASE = 'https://veltroz-production.up.railway.app//api';
 
 async function apiAuthFetch(path, options = {}) {
   const headers = {

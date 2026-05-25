@@ -37,7 +37,7 @@ async function scheduleCall(){
         const response =
             await fetch(
 
-                "http://localhost:8081/api/schedule",
+                "https://veltroz-production.up.railway.app//api/schedule",
 
                 {
 
