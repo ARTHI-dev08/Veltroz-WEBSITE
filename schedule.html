@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        Schedule Call - Veltroz
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+</head>
+
+<body>
+
+<div class="schedule-container">
+
+    <h1>
+        Schedule a Call
+    </h1>
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Your Name"
+    >
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Your Email"
+    >
+
+    <input
+        type="tel"
+        id="phone"
+        placeholder="Phone Number"
+    >
+
+    <input
+        type="datetime-local"
+        id="time"
+    >
+
+    <textarea
+        id="message"
+        placeholder="Purpose of Meeting"
+    ></textarea>
+
+    <button onclick="scheduleCall()">
+
+        Schedule Now
+
+    </button>
+
+</div>
+
+<script src="js/schedule.js"></script>
+
+</body>
+
+</html>

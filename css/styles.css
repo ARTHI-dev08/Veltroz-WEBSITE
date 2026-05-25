@@ -1040,4 +1040,53 @@ footer {
     font-weight: 600;
 
     z-index: 99999;
+}.schedule-container{
+
+    width:400px;
+
+    margin:80px auto;
+
+    background:#111827;
+
+    padding:40px;
+
+    border-radius:15px;
+}
+
+.schedule-container h1{
+
+    color:white;
+
+    text-align:center;
+}
+
+.schedule-container input,
+.schedule-container textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:12px 0;
+
+    border:none;
+
+    border-radius:8px;
+}
+
+.schedule-container button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
 }
