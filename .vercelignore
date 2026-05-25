@@ -1,0 +1,13 @@
+backend/
+.git/
+.github/
+.vscode/
+*.md
+*.txt
+*.xml
+*.java
+*.properties
+*.pom
+build.html
+build1.html
+pages/
