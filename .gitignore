@@ -1,27 +1,21 @@
-# VS Code
+# Maven
+target/
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# IDE
+.idea/
 .vscode/
 
-# IntelliJ / IDEA
-*.iml
-.idea/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# Maven
-/target/
+# OS
+.DS_Store
 
 # Logs
 *.log
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Application Properties
+application.properties
